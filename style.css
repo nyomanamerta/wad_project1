@@ -1,0 +1,45 @@
+/* Mengatur tampilan menu bar */
+nav {
+  position: fixed; 
+  top: 0; 
+  left: 0;
+  
+  width: 100%; 
+  
+}
+
+nav ul {
+    list-style: none;
+    padding: 14px;
+    background-color: rgb(223, 187, 200); 
+    border-radius: 10px;
+    display: flex; 
+    
+  }
+  
+  nav ul li {
+    margin-right: 10px; 
+  }
+
+  nav ul li:first-child {
+    margin-left: 16px;
+    margin-right: 670px; 
+  }  
+  
+  nav ul li:last-child {
+    margin-right: 0; /* Hapus margin kanan pada elemen terakhir */
+  }
+  
+  nav ul li a {
+    text-decoration: none; /* Menghapus garis bawah dari tautan */
+    color: black; /* Warna teks tautan */
+    padding: 10px 10px; /* Padding tautan (atas/bawah, kiri/kanan) */
+    border-radius: 5px; /* Membuat sudut tautan melengkung */
+    
+  }
+  
+  /* Efek hover saat mengarahkan kursor ke tautan */
+  nav ul li a:hover {
+    background-color: pink; /* Warna latar belakang saat hover */
+  }
+  
